@@ -24,6 +24,10 @@ body{
     background: whitesmoke;
 }
 
+.dumy {
+    color: whitesmoke;
+}
+
 .navlist{
     display: flex;
 }
@@ -37,6 +41,15 @@ body{
     transition: all .55s ease;
 }
 
-.dumy {
-    color: whitesmoke;
+.navlist a:hover{
+    border-bottom: 2px solid yellow;
 }
+
+#menu-icon{
+    color: black;
+    font-size: 25px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
