@@ -16,7 +16,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 33px 9%;
+    padding: 40px 9%;
     background: transparent;
 }
 
@@ -51,5 +51,29 @@ body{
     z-index: 10001;
     cursor: pointer;
     display: none;
+}
+
+.main-body{
+    height: 100%;
+    width: 100%;
+    min-height: 90vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.main-text h1{
+    font-size: 90px;
+}
+
+.orang-img{
+    width: 1px;
+    width: 1px;
+}
+
+section{
+    padding: 0 19%;
 }
 
