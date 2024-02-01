@@ -8,7 +8,7 @@
 }
 
 header{
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
     z-index: 1000;
@@ -56,7 +56,7 @@ body{
 .main-body{
     height: 100%;
     width: 100%;
-    min-height: 90vh;
+    min-height: 110svh;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -66,6 +66,27 @@ body{
 
 .main-text h1{
     font-size: 90px;
+    margin-bottom: 40px;
+
+}
+
+.main-text h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.main-text h4{
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
 .orang-img{
@@ -75,5 +96,18 @@ body{
 
 section{
     padding: 0 19%;
+}
+
+.hollow-rectangle {
+    position: absolute; /* atau position: absolute; */
+    top: 50%; /* Mengatur posisi vertikal di tengah */
+    left: 50%; /* Mengatur posisi horizontal di tengah */
+    transform: translate(-50%, -50%); /* Membuat rectangle berada di tengah layar */
+    width: 92vw; /* 75% dari lebar layar */
+    height: 92vh; /* 50% dari tinggi layar */
+    border: 8px solid #000;
+    border-radius: 20px; /* Atur sesuai kebutuhan */
+    box-sizing: border-box;
+    z-index: -1; /* Menempatkan elemen di belakang elemen lain */
 }
 
