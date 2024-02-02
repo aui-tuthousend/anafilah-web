@@ -45,12 +45,33 @@
         <div class="orang-img">
             <img src="images/jck.jpg"width="300" height="300" >
         </div>
+        <div class="sosmed">
+            <i onclick="openIG()" class='bx bxl-instagram-alt' ></i>
+            <i onclick="openYouTube()" class='bx bxl-youtube'></i>
+<!--            <box-icon type='logo' name='youtube' width="34" height="34" onclick="openYouTube()" ></box-icon>-->
+
+            <script>
+                function openYouTube() {
+                    window.open("https://www.youtube.com/", "_blank");
+                }
+            </script>
+
+            <script>
+                function openIG() {
+                    window.open("https://www.instagram.com/yayasanannafilah/", "_blank");
+                }
+            </script>
+
+
+            <!--            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path></svg>-->
+        </div>
     </div>
 
 </main>
 
 
 <script src="app.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 </body>
 </html>

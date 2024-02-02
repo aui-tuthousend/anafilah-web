@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const deskripsiList = [
         "merupakan sebuah lembaga yang berjalan di JL. Pagesangan",
-        "Deskripsi Kedua",
-        "Deskripsi Ketiga",
+        "into your ocean eyes",
+        "what can i say is complicated",
         // Tambahkan deskripsi lainnya sesuai kebutuhan
     ];
 

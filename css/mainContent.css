@@ -10,6 +10,9 @@
     position: relative;
     align-items: center;
     justify-content: flex-start;
+
+    bottom: 50px;
+    right: 100px;
 }
 
 
@@ -53,6 +56,10 @@ h1{
     opacity: 0; /* Set opacity ke 0 untuk menyembunyikan elemen */
 }
 
-
+.bx {
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 36px
+}
 
 
