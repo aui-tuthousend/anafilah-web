@@ -1,0 +1,18 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.mainFrame {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    height: 95%; /* Sesuaikan dengan tinggi yang diinginkan */
+    width: 95%; /* Sesuaikan dengan lebar yang diinginkan */
+    margin: 10px auto 0; /* Memberikan margin otomatis sehingga elemen tetap di tengah */
+    border: 8px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
