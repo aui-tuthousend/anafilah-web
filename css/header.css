@@ -1,7 +1,7 @@
 
 
 header{
-    /*position: relative;*/
+    position: relative;
     display: flex;
     right: 0;
     top: 0;
