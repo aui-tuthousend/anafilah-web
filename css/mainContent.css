@@ -60,6 +60,15 @@ h1{
     margin-bottom: 15px;
     cursor: pointer;
     font-size: 30px
+
+}
+
+#menu-icon{
+    color: black;
+    font-size: 25px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
 }
 
 
