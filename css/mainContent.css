@@ -24,12 +24,11 @@
     /*background: blue;*/
     width: 100%;
     height: 100%;
-}
 
-.txt {
     top: 100px;
     left: 180px;
 }
+
 
 h1{
     font-size: 90px;
@@ -38,11 +37,22 @@ h1{
 
 .desc {
     font-size: 30px;
-    margin-bottom: 40px;
-    top: 100px;
-    left: 180px;
-    flex: 1;
-    display: flex;
-    position: relative;
-    /*background: blue;*/
+
 }
+
+.description {
+    text-align: justify;
+    width: 300px; /* Sesuaikan lebar sesuai kebutuhan */
+    word-wrap: break-word;
+    margin-bottom: 20px; /* Jarak antara elemen */
+    opacity: 1; /* Set opacity ke 1 agar elemen terlihat */
+    transition: opacity 0.5s ease-in-out; /* Efek transisi untuk opacity */
+}
+
+.description.hide {
+    opacity: 0; /* Set opacity ke 0 untuk menyembunyikan elemen */
+}
+
+
+
+
