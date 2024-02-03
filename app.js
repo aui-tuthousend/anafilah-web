@@ -27,3 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Update deskripsi setiap 5 detik
     setInterval(updateDeskripsi, 5000);
 });
+
+const toggleNav = () => {
+    document.body.dataset.nav = document.body.dataset.nav === "true" ? "false" : "true";
+}

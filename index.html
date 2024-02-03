@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-nav="false">
 
 
 <main class="mainFrame">
@@ -56,6 +56,11 @@
 
 </main>
 
+<button id="nav-toggle" type="button" onclick="toggleNav()">
+    <i class="open fa-light fa-bars-staggered">==</i>
+    <i class="close fa-light fa-xmark-large">++</i>
+</button>
+
 
 <script src="app.js"></script>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
@@ -71,6 +76,7 @@
     function openIG2() {
         window.open("https://www.instagram.com/rumahtahfidzannafilah/", "_blank");
     }
+
 </script>
 
 
