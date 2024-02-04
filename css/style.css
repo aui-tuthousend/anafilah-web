@@ -35,7 +35,7 @@ body[data-nav="true"] > nav > #nav-links {
     border: none;
     border-radius: 5rem;
     outline: none;
-    box-shadow: 0rem 0rem 4rem rgba(0 0 0 / 35%);
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0 0 0 / 10%);
     cursor: pointer;
     transition: transform, background-color;
     transition-timing-function: ease;
@@ -65,7 +65,7 @@ body:not([data-nav="true"]) > #nav-toggle:hover > .open {
     top: 50%;
     transform: translate(-50%, -50%) scale(0.9);
     color: rgb(246, 231, 224);
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     opacity: 0;
     transition: transform, opacity;
     transition-timing-function: ease;
