@@ -17,7 +17,7 @@ main {
 }
 
 
-body[data-nav="true"] > main {
+body[data-nav="true"] > section {
     transform: translateY(-50%);
 }
 

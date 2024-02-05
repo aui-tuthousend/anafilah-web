@@ -1,12 +1,22 @@
 body {
     margin: 0;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     overflow: hidden;
     /*background: black;*/
     /*z-index: 0;*/
 }
 
 
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: white;
+    transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
+    z-index: 2;
+
+}
 
 main {
     flex: 3;
