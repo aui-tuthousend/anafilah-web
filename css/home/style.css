@@ -48,6 +48,8 @@ body[data-nav="true"] > nav > #nav-links {
 
 #nav-links > .nav-link {
     text-decoration: none;
+    overflow: hidden;
+    position: relative;
 }
 
 #nav-links > .nav-link > .nav-link-label {
