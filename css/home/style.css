@@ -63,6 +63,7 @@ body[data-nav="true"] > nav > #nav-links {
     border-radius: 0.5rem;
     margin-top: 0.75rem;
     object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
 }
 
 #nav-toggle {
