@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+body {
+    overflow: hidden;
+}
+
 section{
     height: 100%;
     width: 100%;
@@ -14,7 +18,6 @@ section{
     background: white;
     transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
     z-index: 2;
-
 }
 
 main {
@@ -38,7 +41,7 @@ main {
 .mainContent {
     /*position: relative;*/
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     right: 0;
     top: 0;
@@ -46,7 +49,12 @@ main {
     width: 100%;
     height: 100%;
     margin-top: 0px;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: flex-start;
     /*background: green;*/
+}
+
+.mainContent{
+    margin-top: 60px;
+    margin-left: 100px;
 }
