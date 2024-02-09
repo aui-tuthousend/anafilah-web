@@ -16,8 +16,7 @@ main {
     transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
 }
 
-
-body[data-nav="true"] > section {
+body[data-nav="true"] > main {
     transform: translateY(-50%);
 }
 
