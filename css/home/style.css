@@ -68,6 +68,10 @@ body[data-nav="true"] > nav > #nav-links {
     transition: opacity 0.3s ease-in-out;
 }
 
+.main-gambar {
+    transition: opacity 0.3s ease-in-out;
+}
+
 #nav-toggle {
     height: 3rem;
     width: 5rem;

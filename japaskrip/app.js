@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     const deskripsiList = [
-        "merupakan sebuah lembaga yang berjalan di JL. Pagesangan",
-        "depan muhamadiyah",
-        "belok kanan",
+        "The only person who can defeat me is myself",
+        "Hey nate. How's Life?",
+        "Yea I know it's hard to belive",
+        "U feelin low?",
     ];
 
     let currentDeskripsiIndex = 0;

@@ -37,12 +37,12 @@
 
 h1{
     font-size: 90px;
-    margin-bottom: 40px;
+    /*margin-bottom: 10px;*/
 }
 
 .desc {
     font-size: 30px;
-
+    margin-top: 50px;
 }
 
 .description {
