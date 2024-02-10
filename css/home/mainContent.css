@@ -8,11 +8,13 @@
     flex: 1;
     display: flex;
     position: relative;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 20px;
-    bottom: 50px;
-    right: 100px;
+    /*align-items: center;*/
+    /*justify-content: flex-start;*/
+    /*margin-left: 20px;*/
+    z-index: -3;
+    /*bottom: 50px;*/
+    right: 200px;
+    height: 100%;
 }
 
 
@@ -25,7 +27,7 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     /*background: blue;*/
-    width: 100%;
+    /*width: 100%;*/
     height: 100%;
 
     top: 100px;
@@ -70,5 +72,6 @@ h1{
     cursor: pointer;
     display: none;
 }
+
 
 

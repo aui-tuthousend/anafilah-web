@@ -9,7 +9,7 @@
 
 body {
     overflow-x: hidden;
-    height: 200vh;
+    height: 400vh;
     width: 100vw;
     /*padding-bottom: 10px;*/
 }
@@ -25,8 +25,8 @@ main {
     position: relative;
     z-index: 2;
 
-    height: 220vh; /* Sesuaikan dengan tinggi yang diinginkan */
-    width: 100vw; /* Sesuaikan dengan lebar yang diinginkan */
+    /*height: 220vh; !* Sesuaikan dengan tinggi yang diinginkan *!*/
+    /*width: 100vw; !* Sesuaikan dengan lebar yang diinginkan *!*/
 
     box-sizing: border-box;
     background: whitesmoke;
@@ -50,13 +50,30 @@ main {
 }
 
 .mainContent{
-    margin-top: 180px;
+    margin-top: 70px;
     margin-left: 200px;
+    text-align: justify;
+    word-wrap: break-word;
 }
 
+
 #txt-par {
-    /*display: grid;*/
+    width: 500px;
+    min-height: 80vh;
+    /*margin-left: 100px;*/
+}
+
+#txt-par2 {
+    /*margin-top: 50px;*/
+    width: 500px;
+    min-height: 100vh;
+    margin-left: 100px;
+}
+
+#txt-par3 {
+    width: 500px;
     min-height: 60vh;
+    margin-left: 100px;
 }
 
 .hidden {
@@ -76,4 +93,13 @@ main {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+.image {
+    width: max(45vw, 400px);
+    aspect-ratio: 1.8 / 1;
+    border-radius: 0.5rem;
+    margin-top: 0.75rem;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
 }
