@@ -10,13 +10,14 @@
     /*aspect-ratio: 1 / 1.6;*/
     /*aspect-ratio: 0.2 / 4;*/
     margin-right: 20px;
-    border: 0.5vmin solid var(--border);
+    border: 0.2vmin solid var(--border);
     cursor: pointer;
     position: relative;
-    width: 50vmin;
-    height: 50vmin;
-    background: aqua;
+    width: 214px;
+    height: 150px;
+    background: black;
     border-radius: 10px;
+
 }
 
 .card:hover:before {
@@ -26,6 +27,7 @@
 
 .card:hover > .card-content {
     background-position: -10% 0%;
+
 }
 
 .card:hover > .card-icon {
@@ -36,6 +38,7 @@
     opacity: 1;
     transform: translateY(0%);
     transition: opacity 0ms, transform 200ms cubic-bezier(.90, .06, .15, .90);
+
 }
 
 .card:before {
@@ -69,7 +72,7 @@
     background-position: 0% 0%;
     background-size: 5vmin 5vmin;
     height: calc(100% - 10vmin);
-    padding: 5vmin;
+    padding: 2vmin;
     position: relative;
     transition: background-position 350ms ease;
     width: calc(100% - 10vmin);
@@ -78,19 +81,21 @@
 
 .card-title,
 .card-subtitle {
-    color: white;
+    color: #F4DFC8;
     font-family: "Anek Latin", sans-serif;
     font-weight: 400;
     margin: 0px;
 }
 
 .card-title {
-    font-size: 4vmin;
+    font-size: 25px;
 }
 
 .card-subtitle {
-    font-size: 3vmin;
+    font-size: 14px;
     margin-top: 2vmin;
+    word-wrap: break-word;
+
 }
 
 .card-subtitle-word {
@@ -100,15 +105,7 @@
     position: relative;
     transform: translateY(40%);
     transition: none;
+
 }
 
-.card-icon {
-    bottom: 0px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 7vmin;
-    left: 0px;
-    margin: 2vmin;
-    position: absolute;
-    transition: color 250ms ease;
-    z-index: 2;
-}
+

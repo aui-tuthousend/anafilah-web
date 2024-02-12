@@ -4,7 +4,7 @@ body {
     width: 100vw;
     overflow: hidden;
     border-radius: 10px;
-    /*background: black;*/
+    /*background: whitesmoke;*/
     /*z-index: 0;*/
 }
 
@@ -19,7 +19,7 @@ main {
 
     width: 100vw;
     height: 100vh;
-    /*background: whitesmoke;*/
+    background: whitesmoke;
     transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
 
 }
