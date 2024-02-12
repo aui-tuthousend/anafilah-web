@@ -42,4 +42,13 @@ const openIG2 = () => {
     window.open("https://www.instagram.com/rumahtahfidzannafilah/", "_blank");
 }
 
+//              circlee
+document.getElementById('circle').addEventListener('click', function () {
+    const optionsContainer = document.getElementById('optionsContainer');
+    optionsContainer.classList.toggle('show');
+});
+
+function handleOptionClick(optionNumber) {
+    alert('You clicked Option ' + optionNumber);
+}
 

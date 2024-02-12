@@ -1,0 +1,40 @@
+.circle-container {
+    position: fixed;
+    bottom: 20px; /* Jarak dari bawah layar */
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(85, 130, 149); /* Warna latar belakang lingkaran */
+    border-radius: 50%; /* Membuat lingkaran dengan border-radius 50% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.options-container {
+    display: none;
+    position: absolute;
+    bottom: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff; /* Warna latar belakang opsi */
+    border: 1px solid #ccc; /* Garis pembatas opsi */
+    border-radius: 5px; /* Sudut bulat pada opsi */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    z-index: 1; /* Menempatkan opsi di atas lingkaran */
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.options-container.show {
+    display: block;
+    opacity: 1;
+}
+.option {
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}

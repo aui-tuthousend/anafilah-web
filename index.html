@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/home/mainContent.css">
     <link rel="stylesheet" type="text/css" href="css/home/divParent.css">
+    <link rel="stylesheet" type="text/css" href="css/home/circle.css">
     <link rel="stylesheet"
           href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +27,7 @@
             <li><a href="program.html">Program</a></li>
             <li><a href="#">Kegiatan</a></li>
             <li><a href="artikel.html">Artikel</a></li>
-            <li><a href="#">Layanan</a></li>
+<!--            <li><a href="#">Layanan</a></li>-->
         </ul>
         <a href="#" class="dumy"></a>
         <a href="#" class="dumy"></a>
@@ -56,7 +57,17 @@
         </div>
     </div>
 
+
 </main>
+
+<div class="circle-container" id="circle">
+    layanan
+    <div class="options-container" id="optionsContainer">
+        <div class="option" onclick="handleOptionClick(1)">zakat</div>
+        <div class="option" onclick="handleOptionClick(2)">infaq</div>
+        <div class="option" onclick="handleOptionClick(3)">shodaqoh</div>
+    </div>
+</div>
 
 <nav>
     <div id="nav-links">
@@ -79,6 +90,7 @@
     <i class="open fa-light fa-bars-staggered">galeri</i>
     <i class="close fa-light fa-xmark-large">back</i>
 </button>
+
 
 
 <script src="japaskrip/app.js"></script>
