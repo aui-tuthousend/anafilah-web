@@ -1,5 +1,13 @@
-.big-pict {
+.idk {
+    margin: auto;
     margin-top: 80px;
+    width: 95%;
+    height: 4vh;
+    background: lightgray;
+}
+
+.big-pict {
+    margin-top: 10px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -10,6 +18,16 @@
     right: 50px;
     margin-top: 10px;
     color: white;
+    font-weight: 100px;
+    font-family: "Neue Regrade";
+}
+
+.big-pict h2 {
+    position: absolute;
+    left: 50px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
     font-weight: 100px;
     font-family: "Neue Regrade";
 }
@@ -44,4 +62,10 @@
     height: 500px;
     background: white;
     border: 1px solid black;
+}
+
+.desc-bp {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
 }
