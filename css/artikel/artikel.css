@@ -61,6 +61,7 @@ section {
 .otw h1 {
     font-size: 120px;
     font-weight: bold;
+    font-style: Orith_display;
 }
 
 .block {
@@ -164,19 +165,27 @@ section {
 
 .ttxx{
     padding-left: 25px;
+    padding-right: 25px;
     display: flex;
     /*background: green;*/
     align-items: flex-start;
+    justify-content: space-between;
 }
 .ttxx h2{
+    /*flex: 2;*/
     font-size: 16px;
 }
 .ttxx h1{
-    margin-left: 385px;
+    /*flex: 1;*/
+    margin-left: 170px;
     font-size: 100px;
     font-weight: 700;
     color: #191717;
     font-family: "Neue Regrade";
+}
+
+.ttxx h3 {
+    /*margin-left: 418px;*/
 }
 
 
