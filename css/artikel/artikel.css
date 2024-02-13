@@ -11,11 +11,15 @@ body {
     /*background-color: rgb(10, 10, 10);*/
     /*background: #F4EAE0;*/
     display: flex;
-    height: 100vh;
+    height: 300vh;
     width: 100vw;
     margin: 0px;
     place-items: flex-start;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 main {
@@ -28,17 +32,115 @@ main {
     width: 100vw;
 
 
-    align-items: flex-start;
+    /*align-items: flex-start;*/
 }
 
 section {
     display: flex;
     /*margin-left: 46px;*/
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
 }
 
 .heder {
     margin-bottom: 20px;
 }
+
+.otw {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 100px;
+    padding: 15px;
+    /*background: yellow;*/
+    height: 130px;
+}
+
+.otw h1 {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.block {
+   display: flex;
+    margin-top: 22px;
+
+}
+
+.kid:nth-child(1) {
+    width: 94px;
+    height: 90px;
+    background: black;
+    margin-right: 2px;
+}
+
+.kid:nth-child(2) {
+    width: 47px;
+    height: 90px;
+    background: black;
+    margin-right: 2px;
+}
+
+.kid:nth-child(3) {
+    width: 24px;
+    height: 90px;
+    background: black;
+    margin-right: 2px;
+}
+
+.kid:nth-child(4) {
+    width: 24px;
+    height: 90px;
+    background: black;
+    margin-right: 2px;
+}
+
+.kid:nth-child(5) {
+    width: 12px;
+    height: 90px;
+    background: black;
+    margin-right: 2px;
+}
+
+.kid:nth-child(6) {
+    width: 6px;
+    height: 90px;
+    background: black;
+    margin-right: 2px;
+}
+
+.kido {
+    width: 3px;
+    height: 90px;
+    background: black;
+    margin-right: 2px;
+}
+
+.c {
+    display: flex;
+    padding-right: 16px;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.bbox {
+    display: flex;
+    flex-direction: column;
+    height: 365px;
+    background: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.bbox h1{
+    font-size: 32px;
+    color: white;
+    font-style: oblique;
+    font-weight: 100;
+}
+
 
