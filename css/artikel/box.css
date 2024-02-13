@@ -1,0 +1,24 @@
+.col-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 75px;
+    margin-top: 50px;
+
+}
+
+.row-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-box:nth-child(2){
+    margin-top: 50px;
+}
+
+.box-child {
+    width: 370px;
+    height: 500px;
+    background: white;
+    border: 1px solid black;
+}
