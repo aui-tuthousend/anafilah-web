@@ -1,3 +1,26 @@
+.big-pict {
+    margin-top: 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.big-pict h3 {
+    position: absolute;
+    right: 50px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 100px;
+    font-family: "Neue Regrade";
+}
+
+.pict {
+    width: 95%;
+    height: 600px;
+    background: lightgray;
+    /*border: 1px solid black;*/
+}
+
 .col-box {
     display: flex;
     flex-direction: column;

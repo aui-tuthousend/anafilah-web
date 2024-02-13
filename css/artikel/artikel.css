@@ -61,70 +61,73 @@ section {
 .otw h1 {
     font-size: 120px;
     font-weight: bold;
-    font-style: Orith_display;
+    font-family: "Orith display";
+    margin-right: 10px;
 }
 
 .block {
    display: flex;
-    margin-top: 22px;
+    margin-top: 18px;
 }
 
 .kid:nth-child(1) {
     width: 94px;
-    height: 90px;
+    height: 100px;
     background: black;
     margin-right: 2px;
 }
 
 .kid:nth-child(2) {
     width: 47px;
-    height: 90px;
+    height: 100px;
     background: black;
     margin-right: 2px;
 }
 
 .kid:nth-child(3) {
     width: 24px;
-    height: 90px;
+    height: 100px;
     background: black;
     margin-right: 2px;
 }
 
 .kid:nth-child(4) {
     width: 24px;
-    height: 90px;
+    height: 100px;
     background: black;
     margin-right: 2px;
 }
 
 .kid:nth-child(5) {
     width: 12px;
-    height: 90px;
+    height: 100px;
     background: black;
     margin-right: 2px;
 }
 
 .kid:nth-child(6) {
     width: 6px;
-    height: 90px;
+    height: 100px;
     background: black;
     margin-right: 2px;
 }
 
 .kido {
     width: 3px;
-    height: 90px;
+    height: 100px;
     background: black;
     margin-right: 2px;
 }
 
 .c {
     display: flex;
-    padding-right: 21px;
+    padding-right: 22px;
     justify-content: flex-end;
     margin-top: 8px;
     margin-bottom: 20px;
     font-size: 20px;
+    font-family: "Neue Regrade";
+
 }
 
 .bbox {
@@ -139,8 +142,9 @@ section {
 .bbox h1{
     font-size: 30px;
     color: white;
-    font-style: oblique;
     font-weight: 100;
+    font-family: "Neue Regrade";
+
 }
 
 .wh {
