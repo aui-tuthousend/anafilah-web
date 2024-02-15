@@ -123,12 +123,17 @@ main {
     height: 50px;
     background: orange;
     border-radius: 30px;
-    cursor: pointer;
+    cursor: cell;
     
     display: flex;
     padding-left: 20px;
     align-items: center;
     justify-content: space-around;
+}
+
+.explr:hover {
+    transform: translateX(0%) scale(1.04);
+
 }
 
 .dott {
