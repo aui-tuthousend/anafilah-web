@@ -102,6 +102,7 @@ main {
     background: lightgray;
     border-radius: 20px;
     margin-right: 100px;
+
 }
 
 .col {
@@ -137,4 +138,27 @@ main {
     border-radius: 50%;
     display: inline-block;
     margin-left: 10px;
+}
+
+.orange-line {
+    position: absolute;
+    top: 138%;
+    left: -50%;
+    transform: rotate(5deg);
+
+    width: 160vw;
+    height: 120px;
+    background: orange;
+}
+
+.blk-line {
+    position: absolute;
+    top: 145%;
+    left: -50%;
+    transform: rotate(-4.5deg);
+
+    width: 160vw;
+    height: 120px;
+    background: black;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
 }
