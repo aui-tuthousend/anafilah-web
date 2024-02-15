@@ -29,6 +29,25 @@ main {
     height: 100vh;
     width: 100vw;
 
-
     /*align-items: flex-start;*/
+}
+
+.mc {
+    padding: 50px;
+}
+
+.txt-top {
+    margin-top: 90px;
+}
+
+.txt-top h3 {
+    text-align: justify;
+    width: 500px; /* Sesuaikan lebar sesuai kebutuhan */
+    word-wrap: break-word;
+    margin-bottom: 40px;
+}
+
+.txt-top h1 {
+    font-family: "Orith display";
+    font-size: 128px;
 }
