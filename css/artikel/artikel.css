@@ -58,7 +58,7 @@ main {
     right: 50px;
     top: 127px;
 
-    width: 500px;
+    width: 550px;
     height: 340px;
     background: lightgray;
     border-radius: 20px;
@@ -67,7 +67,7 @@ main {
 
 .dot {
     position: absolute;
-    right: 485px;
+    right: 535px;
     top: 165px;
 
     height: 130px;
@@ -79,7 +79,7 @@ main {
 
 .dot2 {
     position: absolute;
-    right: 510px;
+    right: 560px;
     top: 190px;
 
     height: 80px;
@@ -97,11 +97,11 @@ main {
 }
 
 .box-left {
-    width: 500px;
+    width: 590px;
     height: 340px;
     background: lightgray;
     border-radius: 20px;
-    margin-right: 100px;
+    margin-right: 70px;
 
 }
 
@@ -147,18 +147,26 @@ main {
     transform: rotate(5deg);
 
     width: 160vw;
-    height: 120px;
+    height: 130px;
     background: orange;
 }
 
 .blk-line {
     position: absolute;
-    top: 145%;
+    top: 142%;
     left: -50%;
-    transform: rotate(-4.5deg);
+    transform: rotate(-3deg);
 
     width: 160vw;
-    height: 120px;
+    height: 130px;
     background: black;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.blk-line h1{
+    color: white;
 }
