@@ -33,21 +33,108 @@ main {
 }
 
 .mc {
-    padding: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-top: 75px;
 }
 
 .txt-top {
-    margin-top: 90px;
 }
 
 .txt-top h3 {
     text-align: justify;
     width: 500px; /* Sesuaikan lebar sesuai kebutuhan */
     word-wrap: break-word;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 
 .txt-top h1 {
     font-family: "Orith display";
     font-size: 128px;
+}
+
+.box-right {
+    position: absolute;
+    right: 50px;
+    top: 127px;
+
+    width: 500px;
+    height: 340px;
+    background: lightgray;
+    border-radius: 20px;
+
+}
+
+.dot {
+    position: absolute;
+    right: 485px;
+    top: 165px;
+
+    height: 130px;
+    width: 130px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    position: absolute;
+    right: 510px;
+    top: 190px;
+
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.container2 {
+    display: flex;
+    padding-left: 50px;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+
+.box-left {
+    width: 500px;
+    height: 340px;
+    background: lightgray;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.col h3 {
+    text-align: justify;
+    width: 500px; /* Sesuaikan lebar sesuai kebutuhan */
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.explr {
+    width: 200px;
+    height: 50px;
+    background: orange;
+    border-radius: 30px;
+    cursor: pointer;
+    
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dott {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
 }
