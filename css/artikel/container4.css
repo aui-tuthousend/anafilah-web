@@ -13,8 +13,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-left: 20px;
     /*text-align: justify;*/
-
 }
 
 .row1-c4 h1{
@@ -38,8 +38,13 @@
 .box1-c4 {
     width: 60%;
     height: 100%;
-    background: yellow;
+    background: lavender;
     border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-between;
 }
 
 .boxx {
@@ -53,7 +58,41 @@
 .box2-c4 {
     width: 100%;
     height: 47%;
-    background: red;
+    background: lightgray;
     border-radius: 20px;
 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.bx1-col {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    background: white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    width: 180px;
+    height: 70px;
+    background: white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title2 {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    background: white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
 }
