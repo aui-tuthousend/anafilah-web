@@ -190,4 +190,9 @@ section {
     /*margin-left: 418px;*/
 }
 
-
+.bulet {
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Neue Regrade";
+}
