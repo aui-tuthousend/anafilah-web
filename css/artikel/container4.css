@@ -77,6 +77,13 @@
     align-items: center;
 }
 
+.bx1-row {
+    display: flex;
+    /*justify-content: space-between;*/
+    width: 100%;
+    align-items: center;
+}
+
 .title {
     display: flex;
     width: 180px;
@@ -95,4 +102,29 @@
     border-radius: 30px;
     justify-content: center;
     align-items: center;
+}
+
+.dot-bx1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    /*display: inline-block;*/
+
+}
+.dot-bx1:nth-child(2){
+    margin-left: 420px;
+}
+
+.dot-bx1:hover {
+    /*background: red;*/
+}
+
+.bx {
+    font-size: 30px;
+    cursor: pointer;
 }
