@@ -79,19 +79,25 @@
 
 .bx1-row {
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     width: 100%;
     align-items: center;
 }
 
 .title {
     display: flex;
-    width: 180px;
-    height: 70px;
+    width: 40%;
+    height: 100%;
+    padding: 20px;
     background: white;
     border-radius: 30px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+h3{
+    width: 100px; /* Sesuaikan lebar sesuai kebutuhan */
+    word-wrap: break-word;
 }
 
 .title2 {
@@ -117,7 +123,7 @@
 
 }
 .dot-bx1:nth-child(2){
-    margin-left: 420px;
+    /*margin-left: 60%;*/
 }
 
 .dot-bx1:hover {
@@ -127,4 +133,26 @@
 .bx {
     font-size: 30px;
     cursor: pointer;
+}
+
+.read-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 90%;
+    background: red;
+    border-radius: 20px;
+
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.read-now h4{
+    color: white;
+}
+
+.rr {
+    display: flex;
+    /*width: 0%;*/
 }
