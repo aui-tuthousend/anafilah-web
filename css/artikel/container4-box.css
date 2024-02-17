@@ -1,0 +1,166 @@
+
+.box1-c4 {
+    width: 60%;
+    height: 100%;
+    background: lavender;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.boxx {
+    width: 37%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box2-c4 {
+    width: 100%;
+    height: 47%;
+    background: lightgray;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.bx1-col {
+    display: flex;
+    width: 140px;
+    height: 40px;
+    background: white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx1-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    width: 100px; /* Sesuaikan lebar sesuai kebutuhan */
+    word-wrap: break-word;
+}
+
+
+.dot-bx1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    /*display: inline-block;*/
+
+}
+
+.bx {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.read-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 90%;
+    background: red;
+    border-radius: 20px;
+
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.read-now h4{
+    color: white;
+}
+
+.rr {
+    display: flex;
+    /*width: 0%;*/
+}
+
+.bx2-col {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    background: white;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.bx2-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+}
+
+.title2 {
+    display: flex;
+    width: 50%;
+    height: 90%;
+    background: white;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.read-now2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+    background: red;
+    border-radius: 20px;
+
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.read-now2 h4{
+    font-size: 12px;
+    color: white;
+}
+
+.dot-bx2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    /*display: inline-block;*/
+}
+
