@@ -1,7 +1,7 @@
 footer {
     margin-top: 200px;
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     background: red;
 
     display: flex;
@@ -18,5 +18,32 @@ footer h1 {
     font-size: 15px;
     /*margin-top: 20px;*/
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /*gap: 10px;*/
+    /*background: black;*/
+}
+
+.footer-row2 {
+    margin-top: 90px;
+    display: flex;
+    /*gap: 40px;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-row2 h3{
+    width: 300px;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+.fut {
+    display: flex;
 }
