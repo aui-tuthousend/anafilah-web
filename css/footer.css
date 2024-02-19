@@ -6,5 +6,17 @@ footer {
 
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 120px;
+}
+
+footer h1 {
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.footer-row {
+    font-size: 15px;
+    /*margin-top: 20px;*/
+    display: flex;
+    justify-content: space-between;
 }
