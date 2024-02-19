@@ -170,8 +170,34 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.blk-line h1{
     color: white;
 }
+
+.orange-line2 {
+    position: absolute;
+    top: 480vh;
+    left: -50%;
+    transform: rotate(3deg);
+
+    width: 160vw;
+    height: 130px;
+    background: orange;
+}
+
+.blk-line2 {
+    position: absolute;
+    top: 484vh;
+    left: -50%;
+    transform: rotate(-3deg);
+
+    width: 160vw;
+    height: 130px;
+    background: lightgray;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+}
+
