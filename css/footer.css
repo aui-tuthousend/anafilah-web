@@ -2,20 +2,21 @@ footer {
     margin-top: 200px;
     width: 100vw;
     height: 70vh;
-    background: red;
+    background: black;
 
     display: flex;
     flex-direction: column;
-    padding: 120px;
+    padding: 150px;
+    color: white;
 }
 
 footer h1 {
-    width: 300px;
+    width: 200px;
     word-wrap: break-word;
 }
 
 .footer-row {
-    font-size: 15px;
+    font-size: 12px;
     /*margin-top: 20px;*/
     display: flex;
     flex-direction: row;
@@ -46,4 +47,16 @@ footer h1 {
 
 .fut {
     display: flex;
+    font-size: 12px;
+}
+
+.sos {
+    display: flex;
+    width: 130px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    border: 0.1px solid white;
+    margin-right: 2px;
 }
