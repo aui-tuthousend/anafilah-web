@@ -11,7 +11,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
     height: 80%;
     background: white;
     border-radius: 30px;
@@ -25,15 +25,73 @@
 
 .blk-1 {
     flex: 2;
-    /*background: gray;*/
+    /*background: white;*/
 }
 
 .blk-2 {
     flex: 1;
-    /*background: green;*/
+    background: gray;
 }
 
 .blk {
     flex: 1;
-    /*background: green;*/
+    background: whitesmoke;
+    /*border: 0.1px solid black;*/
+}
+
+.blk3 {
+    flex: 1;
+    background: darkblue;
+}
+
+.cont {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.all-program {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-program a {
+    color: black;
+    /*margin-left: 60px;*/
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.conten-blk1{
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.conten2-blk1{
+    margin-top: 20px;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.qq {
+    margin-left: 20px;
+}
+
+.buton {
+    margin-top: 20px;
+    display: flex;
+    width: 100px;
+    height: 30px;
+    background: black;
+    border-radius: 30px;
+
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+    cursor: cell;
 }
