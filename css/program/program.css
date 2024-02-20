@@ -39,10 +39,10 @@
     /*border: 0.1px solid black;*/
 }
 
-.blk3 {
-    flex: 1;
-    background: darkblue;
-}
+/*.blk3 {*/
+/*    flex: 1;*/
+/*    background: darkblue;*/
+/*}*/
 
 .cont {
     position: relative;
@@ -78,11 +78,11 @@
 }
 
 .qq {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .buton {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     display: flex;
     width: 100px;
     height: 30px;
@@ -94,4 +94,23 @@
     justify-content: center;
 
     cursor: cell;
+}
+
+.row{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    /*background: gray;*/
+    gap: 10px;
+}
+
+.blk:nth-child(1){
+    padding-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /*border-right: 1px solid white;*/
+}
+
+.ll {
+    margin-bottom: 10px;
 }
