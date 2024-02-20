@@ -114,3 +114,8 @@
 .ll {
     margin-bottom: 10px;
 }
+
+.bx {
+    font-size: 25px;
+    cursor: pointer;
+}
