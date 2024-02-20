@@ -196,3 +196,31 @@ section {
     text-align: center;
     font-family: "Neue Regrade";
 }
+
+.orange-line2 {
+    position: absolute;
+    top: 594vh;
+    left: -50%;
+    transform: rotate(3deg);
+
+    width: 160vw;
+    height: 130px;
+    background: orange;
+}
+
+.blk-line2 {
+    position: absolute;
+    top: 598vh;
+    left: -50%;
+    transform: rotate(-3deg);
+
+    width: 160vw;
+    height: 130px;
+    background: lightgray;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: black;
+}
