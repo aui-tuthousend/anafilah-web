@@ -15,6 +15,7 @@
     height: 80%;
     background: white;
     border-radius: 30px;
+    z-index: 2;
 }
 
 .row-canvas {
@@ -25,17 +26,19 @@
 
 .blk-1 {
     flex: 2;
-    /*background: white;*/
 }
 
 .blk-2 {
     flex: 1;
     background: gray;
+    border-top-right-radius: 30px;
 }
 
 .blk {
     flex: 1;
     background: whitesmoke;
+    padding-top: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
     /*border: 0.1px solid black;*/
 }
 
@@ -97,7 +100,7 @@
 }
 
 .row{
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     margin-left: 40px;
     display: flex;
     align-items: center;
@@ -105,11 +108,6 @@
     gap: 10px;
 }
 
-.blk:nth-child(1){
-    padding-top: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    /*border-right: 1px solid white;*/
-}
 
 .ll {
     margin-bottom: 10px;
@@ -118,4 +116,14 @@
 .bx {
     font-size: 25px;
     cursor: pointer;
+}
+
+.blk:nth-child(3){
+    background: #265073;
+    color: white;
+    border-bottom-right-radius: 30px;
+}
+
+.blk:nth-child(1){
+    border-bottom-left-radius: 30px;
 }
