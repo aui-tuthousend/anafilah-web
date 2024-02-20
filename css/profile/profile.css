@@ -18,6 +18,13 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.red-line {
+    position: absolute;
+    left: 30%;
+    width: 10vw;
+    height: 400vh;
+    background: red;
+}
 
 main {
     display: flex;
