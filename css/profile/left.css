@@ -10,6 +10,8 @@
 
     width: 300px;
     text-align: right;
+    margin-bottom: 40px;
+
 }
 
 @media (prefers-reduced-motion) {

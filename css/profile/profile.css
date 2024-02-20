@@ -9,9 +9,10 @@
 
 body {
     overflow-x: hidden;
-    height: 400vh;
+    height: 100%;
     width: 100vw;
-    /*padding-bottom: 10px;*/
+    background: whitesmoke;
+
 }
 
 body::-webkit-scrollbar {
@@ -22,7 +23,7 @@ body::-webkit-scrollbar {
     position: absolute;
     left: 40%;
     width: 10vw;
-    height: 400vh;
+    height: 100%;
     background: darkred;
 }
 
@@ -32,11 +33,7 @@ main {
     position: relative;
     z-index: 2;
 
-    /*height: 220vh; !* Sesuaikan dengan tinggi yang diinginkan *!*/
-    /*width: 100vw; !* Sesuaikan dengan lebar yang diinginkan *!*/
-
     box-sizing: border-box;
-    background: whitesmoke;
 
 }
 
@@ -57,14 +54,14 @@ main {
 }
 
 .mainContent{
-    margin-top: 70px;
+    margin-top: 40px;
     margin-left: 200px;
     word-wrap: break-word;
 }
 
 
 .image {
-    width: max(45vw, 400px);
+    width: max(35vw, 400px);
     aspect-ratio: 1.8 / 1;
     border-radius: 0.5rem;
     margin-top: 0.75rem;
@@ -72,4 +69,12 @@ main {
     transition: opacity 0.3s ease-in-out;
 }
 
+.image2 {
+    width: max(30vw, 200px);
+    aspect-ratio: 1.8 / 1;
+    border-radius: 0.5rem;
+    margin-top: 0.75rem;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
 
