@@ -20,10 +20,10 @@ body::-webkit-scrollbar {
 
 .red-line {
     position: absolute;
-    left: 30%;
+    left: 40%;
     width: 10vw;
     height: 400vh;
-    background: red;
+    background: darkred;
 }
 
 main {
@@ -59,48 +59,9 @@ main {
 .mainContent{
     margin-top: 70px;
     margin-left: 200px;
-    text-align: justify;
     word-wrap: break-word;
 }
 
-
-#txt-par {
-    width: 500px;
-    min-height: 80vh;
-    /*margin-left: 100px;*/
-}
-
-#txt-par2 {
-    /*margin-top: 50px;*/
-    width: 500px;
-    min-height: 100vh;
-    margin-left: 100px;
-}
-
-#txt-par3 {
-    width: 500px;
-    min-height: 60vh;
-    margin-left: 100px;
-}
-
-.hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-60%);
-    transition: all 1s;
-}
-
-@media (prefers-reduced-motion) {
-    .hidden {
-        transition: none;
-    }
-}
-
-.show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
 
 .image {
     width: max(45vw, 400px);
@@ -110,3 +71,5 @@ main {
     object-fit: cover;
     transition: opacity 0.3s ease-in-out;
 }
+
+

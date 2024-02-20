@@ -1,0 +1,25 @@
+.hidden2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+    transition-delay: 0.1s;
+
+    width: 300px;
+    text-align: right;
+}
+
+@media (prefers-reduced-motion) {
+    .hidden2 {
+        transition: none;
+    }
+}
+
+.show2 {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
