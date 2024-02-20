@@ -1,43 +1,39 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Space Grotesk', sans-serif;
-    list-style: none;
-    text-decoration: none;
-}
-
-body {
-    overflow-x: hidden;
-    height: 100vh;
+.canvas {
+    display: flex;
     width: 100vw;
-    /*padding-bottom: 10px;*/
+    height: 100vh;
+    background: yellow;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
-main {
+.card {
     display: flex;
     flex-direction: column;
-    position: relative;
-    /*z-index: 2;*/
-    background: whitesmoke;
+    width: 80%;
+    height: 80%;
+    background: white;
+    border-radius: 30px;
 }
 
-.mainContent {
-    /*position: relative;*/
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    right: 0;
-    top: 0;
-    z-index: 1000;
+.row-canvas {
     width: 100%;
-    height: 100%;
-    margin-top: 0px;
-    align-items: flex-start;
-    justify-content: flex-start;
+    height: 50%;
+    display: flex;
+}
+
+.blk-1 {
+    flex: 2;
+    /*background: gray;*/
+}
+
+.blk-2 {
+    flex: 1;
+    /*background: green;*/
+}
+
+.blk {
+    flex: 1;
     /*background: green;*/
 }
