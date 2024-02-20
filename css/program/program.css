@@ -3,9 +3,17 @@
     width: 100vw;
     height: 100vh;
     background: yellow;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     align-items: center;
     justify-content: center;
+}
+
+#program-1{
+    background: #C6DCBA;
+}
+
+#program-2{
+    background: #B3A398;
 }
 
 .card {
