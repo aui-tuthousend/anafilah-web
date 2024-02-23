@@ -20,7 +20,7 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background: yellow;
+    /*background: yellow;*/
     /*margin-bottom: 20px;*/
     align-items: center;
     justify-content: center;
@@ -32,6 +32,14 @@ body {
 
 #program-2{
     background: #B3A398;
+}
+
+#program-3{
+    background: #535C91;
+}
+
+#program-4{
+    background: #9290C3;
 }
 
 .card {
