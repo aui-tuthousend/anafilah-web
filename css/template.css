@@ -9,7 +9,17 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    width:100%;
+    height: 100%;
+}
+
+.row-sa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /*flex-wrap: wrap;*/
     width:100%;
     height: 100%;
 }
@@ -20,9 +30,23 @@
     align-items: flex-start;
 }
 
+.col-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-fe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
 .col-sb {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }

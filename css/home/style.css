@@ -35,17 +35,18 @@ main {
     /*background: black;*/
 
     padding: 35px;
+    padding-top: 0px;
     /*margin-bottom: 10px;*/
 }
 
-.cont1 {
-}
 
 .box-1{
     width: 65%;
     height: 100%;
     background: gray;
 
+    padding: 21px;
+    text-align: right;
     border-radius: 45px;
     border-top-left-radius: 366px ;
 }
@@ -53,16 +54,21 @@ main {
 .box-2{
     width: 34%;
     height: 100%;
+    padding: 21px;
 
     background: gray;
     border-radius: 65px;
     border-bottom-right-radius: 220px;
 }
 
+.box-1 h1{
+    font-size: 60px;
+}
+
 .box-3{
     width: 36%;
     height: 100%;
-
+    padding: 50px;
     background: gray;
     border-radius: 65px;
     border-bottom-left-radius: 282px;
@@ -80,8 +86,8 @@ main {
 .box-4{
     width: 100%;
     height: 60%;
-
     background: gray;
+    padding: 40px;
     border-radius: 70px;
     border-top-right-radius: 293px;
 }
@@ -91,12 +97,50 @@ main {
     height: 35%;
 
     background: gray;
+    padding: 20px;
+
     border-radius: 70px;
 }
 
+.box-5 .bx{
+    font-size: 70px;
+}
+
 .box-6{
+    padding: 40px;
     width: 100%;
     height: 100%;
     background: gray;
     border-radius: 70px;
+    overflow: hidden;
+}
+
+.bx{
+    font-size: 140px;
+}
+
+.gambar{
+    width: 380px;
+    height: 260px;
+    background: black;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.seemore{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 30px;
+    cursor: cell;
+}
+
+
+.img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
