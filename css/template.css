@@ -49,4 +49,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+
+}
+
+.img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

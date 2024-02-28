@@ -2,7 +2,6 @@
 .box1-c4 {
     width: 60%;
     height: 100%;
-    background: lavender;
     border-radius: 20px;
 
     display: flex;
@@ -22,7 +21,6 @@
 .box2-c4 {
     width: 100%;
     height: 47%;
-    background: lightgray;
     border-radius: 20px;
 
     display: flex;

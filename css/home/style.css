@@ -49,6 +49,9 @@ main {
     text-align: right;
     border-radius: 45px;
     border-top-left-radius: 366px ;
+
+    color: white;
+
 }
 
 .box-2{
@@ -69,7 +72,7 @@ main {
     width: 36%;
     height: 100%;
     padding: 50px;
-    background: gray;
+    background: #FFCF96;
     border-radius: 65px;
     border-bottom-left-radius: 282px;
 }
@@ -86,31 +89,33 @@ main {
 .box-4{
     width: 100%;
     height: 60%;
-    background: gray;
+    background: #252A34;
     padding: 40px;
     border-radius: 70px;
     border-top-right-radius: 293px;
+
+    color: white;
+
 }
 
 .box-5{
     width: 100%;
     height: 35%;
 
-    background: gray;
+    background: #252A34;
     padding: 20px;
 
     border-radius: 70px;
+    color: white;
+
 }
 
-.box-5 .bx{
-    font-size: 70px;
-}
 
 .box-6{
     padding: 40px;
     width: 100%;
     height: 100%;
-    background: gray;
+    background: #FFCF96;
     border-radius: 70px;
     overflow: hidden;
 }
@@ -125,6 +130,8 @@ main {
     background: black;
     border-radius: 30px;
     margin-bottom: 5px;
+
+    cursor: cell;
 }
 
 .seemore{
@@ -139,8 +146,4 @@ main {
 }
 
 
-.img{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
