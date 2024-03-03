@@ -43,7 +43,6 @@ main {
 .box-1{
     width: 65%;
     height: 100%;
-    background: gray;
 
     padding: 21px;
     text-align: right;
@@ -116,7 +115,7 @@ main {
     width: 100%;
     height: 100%;
     background: #FFCF96;
-    border-radius: 70px;
+    border-radius: 40px;
     overflow: hidden;
 }
 
