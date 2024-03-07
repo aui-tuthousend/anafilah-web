@@ -24,12 +24,114 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: row;
     /*justify-content: space-between;*/
-    gap: 10%;
-    padding: 3%;
+    gap: 3%;
+    margin-left: 5%;
+    margin-top: 3%;
     /*margin-top: 30px;*/
 }
 
 .ax h4{
     font-size: 40px;
     font-family: "Lexend Light";
+}
+
+.dot{
+    border-radius: 100%;
+}
+
+.dd{
+    gap: 10px;
+}
+
+.d {
+    font-size: 12px;
+    width: 160px;
+    word-wrap: break-word;
+}
+
+.t2{
+    margin-left: 3%;
+    margin-top: 10px;
+    /*background: yellow;*/
+}
+
+.no{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 10%;
+
+}
+
+.t2 h4{
+    font-family: "Lexend Light";
+}
+
+.buton{
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t3{
+    padding: 5%;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 0;;
+}
+
+.gambar1{
+    width: 300px;
+    height: 200px;
+    background: gray;
+    border-radius: 30px;
+}
+
+.gambar2{
+    width: 700px;
+    height: 200px;
+    background: gray;
+    border-radius: 30px;
+}
+
+.t4{
+    padding-left: 5%;
+    margin-top: 10px;
+}
+
+.d4 {
+    margin-top: 20px;
+    font-size: 12px;
+    width: 290px;
+    word-wrap: break-word;
+    /*text-align: justify;*/
+}
+
+.menu{
+    width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 5px;
+    color: white;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.menu2{
+    width: 480px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    margin-left: 9%;
+    margin-bottom: 5px;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    border: solid black 1px;
 }

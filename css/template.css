@@ -4,14 +4,19 @@
     align-items: center;
 }
 
-.row-sb {
+.row-fs{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.row-sb-tok {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width:100%;
-    height: 100%;
 }
 
 
@@ -61,3 +66,4 @@
     object-fit: cover;
 
 }
+
