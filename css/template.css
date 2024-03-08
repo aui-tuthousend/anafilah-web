@@ -10,6 +10,12 @@
     justify-content: flex-start;
 }
 
+.row-fe{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
 
 .row-sb-tok {
     display: flex;

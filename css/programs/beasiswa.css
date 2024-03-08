@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family: 'Space Grotesk', sans-serif;*/
+    list-style: none;
+    font-family: "Lexend Light";
+
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100vw;
+    background: whitesmoke;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.c1{
+    padding: 8%;
+    padding-top: 3%;
+}
+
+.dot{
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 100%;
+    border: solid white 2px;
+}
+
+.c1 h1{
+    text-align: justify;
+    font-size: 65px;
+}
+
+.card{
+    width: 200px;
+    height: 120px;
+    background: black;
+    border-radius: 20px;
+}
+
+.menu{
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    padding-right: 2%;
+    padding-left: 2%;
+
+    border: solid black 1px;
+    margin-bottom: 5px;
+
+}
+
+.gamba{
+    width: 400px;
+    height: 550px;
+    background: black;
+    border-radius: 30px;
+}
