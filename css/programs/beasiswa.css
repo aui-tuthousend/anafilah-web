@@ -42,12 +42,12 @@ body::-webkit-scrollbar {
 .card{
     width: 200px;
     height: 120px;
-    background: black;
+    background: lightgray;
     border-radius: 20px;
 }
 
 .menu{
-    width: 400px;
+    width: 340px;
     height: 30px;
     border-radius: 30px;
     display: flex;
@@ -64,4 +64,60 @@ body::-webkit-scrollbar {
     height: 550px;
     background: black;
     border-radius: 30px;
+}
+
+.c2{
+    margin-right: 20px;
+    /*background: yellow;*/
+}
+
+.card-stack{
+    width: 170px;
+    height: 210px;
+    background: lightgray;
+    border-radius: 20px;
+    z-index: 1;
+    padding: 10px;
+}
+
+.card-stack2{
+    width: 170px;
+    height: 210px;
+    background: darkslategray;
+    border-radius: 20px;
+    margin-left: -15vw;
+    z-index: 0;
+    transform: rotate(-6deg);
+}
+
+.swipe{
+    width: 30px;
+    height: 7px;
+    background: lightgray;
+    border-radius: 30px;
+}
+
+.swipe:nth-child(1){
+    background: black;
+}
+
+.di{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.di2{
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -16,6 +16,11 @@
     justify-content: space-between;
 }
 
+.row-fe-tok{
+    display: flex;
+    align-items: flex-end;
+}
+
 
 .row-sb-tok {
     display: flex;
@@ -61,7 +66,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+}
 
+.col-sb-fs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .img{
