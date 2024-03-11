@@ -21,6 +21,15 @@
     align-items: flex-end;
 }
 
+.row-sb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
 
 .row-sb-tok {
     display: flex;
@@ -66,6 +75,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+.col-sb-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .col-sb-fs {

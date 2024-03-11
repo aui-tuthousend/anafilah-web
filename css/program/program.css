@@ -15,6 +15,9 @@ body {
 
 }
 
+footer{
+    margin-top: 0px;
+}
 
 .canvas {
     display: flex;
@@ -70,7 +73,7 @@ body {
 .blk {
     flex: 1;
     background: whitesmoke;
-    padding-top: 50px;
+    padding-top: 20px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     /*border: 0.1px solid black;*/
 }
@@ -103,18 +106,22 @@ body {
 }
 
 .conten-blk1{
+    margin-left: 40px;
     font-size: 50px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .conten2-blk1{
-    margin-top: 20px;
+    margin-top: 10px;
     width: 300px;
     word-wrap: break-word;
+    margin-bottom: 10px;
 }
 
 .qq {
+    /*text-align: justify;*/
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 .buton {
@@ -144,7 +151,8 @@ body {
 
 
 .ll {
-    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-bottom: 50px;
 }
 
 .bx {
