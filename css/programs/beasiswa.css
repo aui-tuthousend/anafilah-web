@@ -121,3 +121,7 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
 }
+
+.terms{
+    padding-left: 8%;
+}
