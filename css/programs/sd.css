@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100vw;
+    background: whitesmoke;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+main{
+    padding: 2%;
+    width: 100vw;
+    height: 150vh;
+}
+
+.canvas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: black;
+    border-radius: 30px;
+    padding: 0.6%;
+}
+
+
+.content{
+    position: relative;
+    display: flex;
+    padding: 2%;
+}
+
+.a{
+    height: 70%;
+}
+
+.a2{
+    height: 30%;
+}
+
+.b1{
+    flex: 2;
+    background: white;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.b1 h1{
+    font-size: 90px;
+}
+
+.b2{
+    flex: 1;
+    background: cornflowerblue;
+    height: 100%;
+    border-radius: 23px;
+}
+
+.b3 {
+    flex: 1;
+    background: deepskyblue;
+    height: 100%;
+    border-radius: 15px;
+
+}
