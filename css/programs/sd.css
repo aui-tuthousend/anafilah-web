@@ -39,7 +39,7 @@ main{
 .content{
     position: relative;
     display: flex;
-    padding: 2%;
+    /*padding: 2%;*/
 }
 
 .a{
@@ -48,6 +48,11 @@ main{
 
 .a2{
     height: 30%;
+}
+
+.p{
+    margin: 4%;
+    margin-bottom: 0px;
 }
 
 .b1{
@@ -75,4 +80,20 @@ main{
     height: 100%;
     border-radius: 15px;
 
+}
+
+.co{
+    padding: 4%;
+    padding-top: 0%;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 30px;
 }
