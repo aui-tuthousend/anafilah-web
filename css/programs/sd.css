@@ -97,3 +97,30 @@ main{
     color: white;
     border-radius: 30px;
 }
+
+.but2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 30px;
+}
+
+.co2{
+    padding: 4%;
+    padding-bottom: 8%;
+}
+
+.casing {
+    width: 100%;
+    height: 100%;
+    padding: 1%;
+}
+
+.co3{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+}
