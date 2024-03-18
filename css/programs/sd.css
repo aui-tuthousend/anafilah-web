@@ -32,7 +32,7 @@ main{
     height: 100%;
     background: black;
     border-radius: 30px;
-    padding: 0.6%;
+    padding: 1%;
 }
 
 
@@ -79,7 +79,10 @@ main{
     background: deepskyblue;
     height: 100%;
     border-radius: 15px;
+}
 
+.b3:nth-child(3){
+    background: white;
 }
 
 .co{
@@ -113,14 +116,41 @@ main{
     padding-bottom: 8%;
 }
 
+.co2 h1{
+    font-size: 40px;
+}
+
 .casing {
     width: 100%;
     height: 100%;
     padding: 1%;
+    padding-top: 5%;
 }
 
 .co3{
     width: 100%;
     height: 90%;
     border-radius: 10px;
+}
+
+.ro{
+    margin: 0% 5% 0% 7%;
+}
+
+.capsule{
+    width: 100px;
+    height: 30px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.dot{
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 100%;
+    border: solid white 2px;
 }
