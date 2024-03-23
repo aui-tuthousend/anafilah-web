@@ -32,37 +32,39 @@ main{
     font-size: 3rem;
 }
 
-.but{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 25px;
-    border-radius: 30px;
-    border: 1px solid black;
-    color: black;
+.tit{
+    margin-left: 5px;
+    font-size: 3rem;
 }
 
-.line-1 {
-    height: 1px;
-    background: black;
-    margin: 1rem 0 2rem 0;
+.can{
+    margin-top: 5%;
 }
 
-.box{
-    background-image: url("images/cabin.jpg");
-    transition: all 1.1s;
+.cover{
     width: 260px;
+    margin: 0;
+    transition: 0.6s;
     height: 260px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+}
+
+.cover > img{
+    display: block;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     /*background: gray;*/
 }
 
-/*.box:hover{*/
-/*    transform: scale(1.1);*/
-/*}*/
+.cover:hover{
+    transform:scale(1.2);
+}
 
-
-.can{
-    margin-top: 5%;
+.grid-con {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    column-gap: 20px;
+    padding: 10px;
 }
