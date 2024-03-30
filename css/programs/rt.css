@@ -105,11 +105,11 @@ body::-webkit-scrollbar {
 }
 
 .d4 {
-    margin-top: 20px;
-    font-size: 12px;
+    /*margin-top: 20px;*/
+    /*font-size: 12px;*/
     width: 290px;
     word-wrap: break-word;
-    /*text-align: justify;*/
+    text-align: justify;
 }
 
 .menu{
