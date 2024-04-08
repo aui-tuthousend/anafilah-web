@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    width: 100vw;
+    background: whitesmoke;
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+main{
+    padding: 2rem 5rem 20px 7rem;
+}
+
+.gmbar{
+    margin-top: 0.5rem;
+    width: 50rem;
+    height: 30rem;
+}
+
+.txt{
+    margin-top: 1rem;
+    width: 49rem;
+    text-align: justify;
+}
