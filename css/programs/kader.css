@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Space Grotesk', sans-serif;
+    /*font-family: 'Space Grotesk', sans-serif;*/
+    font-family: "Lexend Light";
+
     list-style: none;
     text-decoration: none;
 }
@@ -17,4 +19,43 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+main{
+    padding: 2rem 6rem 0rem 6rem;
+}
+
+.ti{
+    font-size: 3.5rem;
+}
+
+.box{
+    width: 40%;
+    height: 30rem;
+    border-radius: 30px;
+    margin-left: 3rem;
+}
+
+.des{
+    width: 30rem;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.but{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    background: orange;
+    color: white;
+    border-radius: 50px;
+}
+
+.de{
+    margin-top: 30px;
+    width: 30rem;
+    height: 15rem;
+    background: lightgray;
+    color: white;
+    border-radius: 30px;
 }
