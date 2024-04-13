@@ -30,10 +30,9 @@ main{
 }
 
 .box{
-    width: 40%;
+    width: 28rem;
     height: 30rem;
     border-radius: 30px;
-    margin-left: 3rem;
 }
 
 .des{
@@ -54,8 +53,13 @@ main{
 .de{
     margin-top: 30px;
     width: 30rem;
-    height: 15rem;
+    height: 14rem;
     background: lightgray;
     color: white;
     border-radius: 30px;
+}
+
+.kk{
+    margin-top: 3rem;
+    padding: 0.5rem;
 }
