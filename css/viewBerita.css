@@ -27,10 +27,23 @@ main{
     margin-top: 0.5rem;
     width: 50rem;
     height: 30rem;
+    border-radius: 10px;
 }
 
 .txt{
     margin-top: 1rem;
     width: 49rem;
     text-align: justify;
+}
+
+.other{
+    margin: 2rem 0 0 6rem;
+    gap: 1rem ;
+}
+
+.berita{
+    width: 15rem;
+    height: 10rem;
+    border-radius: 10px;
+    background: black;
 }
