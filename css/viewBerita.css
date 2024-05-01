@@ -20,7 +20,7 @@ body::-webkit-scrollbar {
 }
 
 main{
-    padding: 2rem 5rem 20px 7rem;
+    padding: 2rem 3rem 20px 7rem;
 }
 
 .gmbar{
@@ -37,13 +37,19 @@ main{
 }
 
 .other{
-    margin: 2rem 0 0 6rem;
+    margin: 1.5rem 0 0 2rem;
     gap: 1rem ;
 }
 
 .berita{
-    width: 15rem;
-    height: 10rem;
+    width: 11rem;
+    height: 6rem;
     border-radius: 10px;
     background: black;
+}
+
+.de{
+    margin-left: 1rem;
+    width: 12rem;
+    height: 5.5rem;
 }
